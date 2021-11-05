@@ -1,0 +1,50 @@
+	.menu-malasngoding ul {
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+		overflow: hidden;
+	}
+ 
+	.menu-malasngoding > ul > li {
+		float: left;
+	}
+ 
+	
+	.menu-malasngoding li a {
+		color: white;
+		text-align: center;
+		text-decoration: none;
+	}
+ 
+	.menu-malasngoding li a:hover{
+		background-color: #2525ff;
+	}
+ 
+	li.dropdown {
+		display: inline-block;
+	}
+ 
+	.dropdown:hover .isi-dropdown {
+		display: block;
+	}
+ 
+	.isi-dropdown a:hover {
+		color: #fff !important;
+	}
+ 
+	.isi-dropdown {
+		position: absolute;
+		width: 15rem;
+		height: auto;
+		display: none;
+		background-color: whitesmoke;
+	}
+ 
+	.isi-dropdown a {
+		color: !important;
+	}
+ 
+	.isi-dropdown a:hover {
+		color: #232323 !important;
+		background: gainsboro !important;
+	}
